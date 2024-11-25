@@ -1,0 +1,62 @@
+@import url(./buttons.css);
+@import url(./base.css);
+@import url(./hero.css);
+@import url(./header.css);
+@import url(./container.css);
+@import url(./overview.css);
+@import url(./grid.css);
+@import url(./footer.css);
+@import url(./forms.css);
+@import url(./media.css);
+
+
+.title {
+    font-size: 32px;
+}
+.descr {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(41, 40, 48, 1);
+}
+.span {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(189, 189, 189, 1);
+}
+.span.span__1 {
+    font-weight: 400;
+    font-size: 12px;
+}
+.item_in__link {
+    max-width: 136px;
+    min-height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid var(--color_orange);
+}
+.nine {
+    margin-top: 24px;
+}
+.item_in:first-child {
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.container_title__in {
+    flex-shrink: 1;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.container_title_2 {
+    width: 100%;
+    max-height: 72px;
+    margin-bottom: 100px;
+}
+
+

@@ -1,0 +1,97 @@
+/* buttons */
+
+.btn_base {
+	display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	min-width: 160px;
+	height: 48px;
+	line-height: 48px;
+	padding: 0 14px;
+
+	text-decoration: none;
+
+	font-size: 18px;
+	border-radius: 8px;
+	white-space: nowrap;
+	border: 1px solid var(--color_orange);
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn_base.btn_base--white {
+	background-color: #fff;
+	color: var(--color_orange);
+}
+
+.btn_base.btn_base--white:hover,
+.btn_base.btn_base--white:active,
+.btn_base.btn_base--white:focus {
+	background-color: var(--color_orange);
+	color: #fff;
+}
+
+.btn_base.btn_base--primary {
+	background-color: var(--color_orange);
+	color: #fff;
+}
+
+.btn_base.btn_base--primary:hover,
+.btn_base.btn_base--primary:active,
+.btn_base.btn_base--primary:focus {
+	background-color: #fff;
+	color: var(--color_orange);
+}
+
+.btn_base.btn_base--hero {
+	height: 76px;
+	line-height: 76px;
+	min-width: 192px;
+	font-size: 24px;
+}
+
+.btn_base.btn_base--arrow {
+	color: var(--color_orange);
+	border: 0;
+	min-width: 116px;
+	justify-content:left;
+	padding: 0;
+	font-size: 24px;
+	column-gap: 12px;
+}
+
+.btn_base.btn_base--orange {
+	margin-top: 50px;
+	color: var(--color_orange);
+	justify-content: left;
+	min-width: 136px;
+	min-height: 50px;
+	padding-left: 24px;
+	margin-bottom: 60px;
+	transition: all .3s ease-in-out;
+}
+.btn_base.btn_base--orange:hover {
+	background-color: var(--color_orange);
+	color: #fff;
+}
+.btn_base.btn_base--orange::after {
+    position: absolute;
+    content: "";
+    display: block;
+	width: 16px;
+	height: 8px;
+    margin-top: 20px;
+    margin-left: 72px;
+    
+
+    mask-image: url(../imgs/arrow_2.svg);
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    background-color:var(--color_orange);
+	transition: all .3s ease-in-out;
+}
+
+.btn_base.btn_base--orange:hover::after {
+	background-color: #fff;
+}

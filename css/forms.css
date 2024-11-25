@@ -1,0 +1,134 @@
+.section_forms {
+    background-color:rgba(255, 250, 248, 1);
+    height: 742px;
+}
+
+.title_container {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.46px;
+    text-align: center;
+    padding-top: 107px;
+    margin-bottom: 55px;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+
+    grid-template-areas:
+		'g1 g2'
+		'g3 g4';
+	grid-template-columns: repeat(2, 290px);
+    gap: 12px;
+}
+
+.forms {
+    width: 290px;
+    height: 49px;
+    padding: 10px 8px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(41, 46, 61, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    text-align: left;
+}
+
+.forms_1 {
+    grid-area: g1;
+}
+
+.forms_1 {
+    grid-area: g2;
+}
+
+.forms_1 {
+    grid-area: g3;
+}
+
+.forms_1 {
+    grid-area: g4;
+}
+
+.form_5 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 592px;
+    height: 135px;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+}
+
+.bot_text {
+    width: 179px;
+    height: 26px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    color: rgba(41, 40, 48, 1);
+    font-size: 16px;
+    line-height: 25.87px;
+    margin-top: 8px;
+    margin-left: 260px;
+}
+
+.checkbox {
+    width: 442px;
+    height: 21px;
+    margin-left: 260px;
+    margin-top: 13.5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 13px;
+}
+
+.box {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(48, 48, 48, 1);
+
+}
+
+.checkbox_send {
+    font-size: 14px;
+}
+
+.checkbox_send span {
+    text-decoration: underline;
+}
+
+.btn_submit {
+    width: 102px;
+    height: 48px;
+    display: inline-flex;
+    margin-left: 510px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.87px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 114, 53, 1);
+    padding: 11px 25px 11px 26px;
+    margin-top: 22px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn_submit:hover {
+    background: rgba(255, 255, 255, 1);
+    color: rgba(255, 114, 53, 1);
+}
+
+
+
